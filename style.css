@@ -3,7 +3,7 @@
     padding : 0;
     box-sizing: border-box;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     body{
         background-color:#1C1A19 ;
     }
@@ -12,10 +12,10 @@
     justify-content: space-between;
     background-color:#3C3A39;
     padding:10px 20px;
-    width:483px;
-    height:48px;
+    width:650px;
+    height:60px;
     top:44px;
-    color:#ffffff
+    color:#ffffff;
 }
 .body{
     display:flex;
@@ -38,7 +38,7 @@
 }
 .div1{
     color:#FF6B00;
-    width: 423px;
+    width: 650px;
     height: 130px;
     font-family:'Crete Round', serif;
     font-size: 33px;
@@ -47,7 +47,7 @@
     letter-spacing: 0.35px;
 }
 .div2{
-    width: 410px;
+    width: 650px;
     height: 40px;
     font-size:21px;
     font-family: 'Roboto',sans-serif;
@@ -67,16 +67,17 @@ bottom: -95px;
 }
 .dicon{
     width: 200px;
-    height: 40px;
+    height: 20px;
     display: flex;
     justify-self: space-between;
     align-self: flex-start;
     bottom:-50px;
+    padding: 15px;
 
 }
 p{
-    width:410px;
-    Height:127px;
+    width:650px;
+    Height:70px;
     line-height:30px;
     font-size: 21px;
     font-weight: 400;
