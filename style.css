@@ -2,12 +2,13 @@
 @media screen and (max-width:768px){
     body{
         background-color:#1C1A19 ;
+        overflow-x:hidden;
     }
 *{
         margin: 0;
         padding : 0;
         box-sizing: border-box;
-        overflow-x:hidden;
+        
     }
 .ul{
     display:flex;
