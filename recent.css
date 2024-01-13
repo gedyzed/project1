@@ -1,0 +1,85 @@
+@media screen and (max-width:768px){
+    body{
+        background-color: white;
+        overflow-x: hidden;
+        margin:0;
+    }
+    
+    .container{
+        display:flex;
+        flex-direction: column; 
+        margin-left:25px;
+        width: 90%;
+        height:120vh;
+        overflow:hidden;
+        
+
+    }
+    .header{
+        height:23vh;
+        margin-bottom: 45px;
+        
+    }
+    .header-p
+    {
+      margin-top:75px;
+      font-size:40px;
+      font-weight: 400;
+      line-height: 52px;
+      font-family: 'crete Round',sans-serif;
+      color:black; 
+      border-bottom: 1px solid #000;
+      padding-bottom:20px;
+      width:320px;
+    }
+    .img-place-holder{
+        height:37vh;
+        padding-bottom: 15px;;
+
+    }
+    .h1{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        font-family: 'crete Round',sans-serif;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: 'inter',sans-serif;
+    }
+    .main{
+        height:40vh;
+    }
+    .buttons{
+        display:grid;
+        grid-template-columns:60px 65px 90px 60px;
+        column-gap: 20px; 
+    }
+    .project-button{
+        margin-top: 15px;
+        padding-right: 22px;
+        padding-left: 22px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #FF6B00;
+        border:hidden;
+        border-radius: 2px;  
+        font-size: 17px; 
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 3%;
+        font-family: 'inter',Arial;
+        color: #FFFFFF;
+
+    }
+    button{
+        padding: 12px 12px;
+        text-align: center;
+        font-family:'inter', Arial;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
