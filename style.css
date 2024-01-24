@@ -1,94 +1,410 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 
+}
 @media screen and (max-width:768px){
     body{
-        background-color:#1C1A19 ;
-        overflow-x:hidden;
+        padding:0;
+        margin:0; 
     }
-*{
-        margin: 0;
-        padding : 0;
+    .homepage{
+    background-color: #1C1A19; 
+    background-size: 100% 100%;
+    width: 100%;
+    
+  }
+.main{
+    padding-top: 35vw;
+    padding-left: 5vw;
+    padding-bottom: 3vw;
+    position: relative;
+    }
+.Ih1{
+    color: #FF6B00;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 12.5vw;
+    letter-spacing:3%;
+    line-height: 10vw; 
+     
+ 
+  }
+.Ip{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 7vw;
+    padding: 3.4vw 0 ;
+   }
+.Ih3{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 6vw;
+    line-height: 7vw;
+    padding-top: 3.4vw;
+   }
+.header1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3C3A39;
+    height: 13vw; 
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+.grid-about1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left:2vw ;
+}
+.img{
+    width: 100%;
+}
+.Iimg{
+    width: 10.7vw;
+    height: 10.7vw;
+    padding: 2.14vw; 
+}
+.logo{
+    padding: 10px 12px;
+    margin-left: 3.6vw;
+    font-weight: 550;   
+}
+.menu{
+    margin-right: 3.6vw;
+}
+.illustration{
+    width: 100%;
+} 
+.div-ill{
+    padding-top: -10vw;
+    width:100%;
+}
+
+  /* sub-section 2 */
+    .recentCon{
+        width:90%;
+        padding-left:3vw;
+        padding-right:6vw;
+        overflow-x: hidden;
+       
+    }  
+    .recentH {
+        border-bottom: 1px solid #000;
+        padding-top: 8vw;
+    }
+    
+    .recent-h1{
+        font-size:11vw;
+        font-weight: 400;
+        padding-left:1vw;
+        padding-bottom: 10vw;
+        padding-top: 10vw;
+    }
+    .main-h1{
+        font-size:10vw;
+        padding-bottom:-5vw;
+        margin-bottom: 0;
+        font-family: 'Crete Round',Arial;
+        font-weight:400 ;
+        line-height: 44px;
+    }
+    .recent-P{
+        padding-top: -5vw;
+        font-size: 3vw;
+        font-family: 'Inter',Arial;
+        color:#091E42;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .recentI{
+        padding-top:10vw;
+        width: 100%;
+    }
+    .imgrec{
+        width: 100%;
+    }
+    .buttonsrec{
+        display:grid;
+        grid-template-columns: 15vw 15vw 20vw 15vw;
+        column-gap: 3vw;
+        padding-bottom: 3vw;
+        padding-top: 2vw;
+    }
+    .recbuttons{
+        font-size: 4vw;
+        width:100%;
         box-sizing: border-box;
+        padding-top:1vw;
+        padding-bottom:1vw;
+        padding-right:3vw;
+        padding-left:2vw; 
+        text-align: center;
+        border: 1px solid #8993A4;
+        background-color: white;
+    }
+    .recProject-button{
+        padding-top:2vw;
+        padding-bottom:2vw;
+        padding-right:3vw;
+        padding-left:3vw; 
+        text-align: center;
+        width:100%;
+        font-size: 3.5vw;
+        background-color: #FF6B00;
+        border: none;
+        color: white;
+        font-weight: 700;
+    }
+    .recProject-div{
+        width:30vw;
+    }
+
+
+     /* sub-project 3 */
+    .container{
+        padding-top:15vw;
+        background-image: url("images/background-image.jpg");
+        background-size: 100% 100%;
+        background-repeat: repeat;
+    } 
+    .header{
+        padding-left:5vw;
+    }    
+    .third-h1{
+        font-size:9vw;
+        color:white;
+        font-family: 'Crete Round',Arial;
+        font-weight: 400;
+        line-height: 12vw;
+    }
+    .third-p{
+        font-size:5vw;
+        color:#FFFFFF;
+        font-family: 'Inter',Arial;
+        font-weight: 300;
+        line-height: 6vw;
+    }
+    .button{
+        font-size: 5vw;
+        width:100%;
+        background-color: #FFFFFF3D;
+        color:white;
+        border: none;
+        padding : 12px 12px
+    } 
+    .buttons{
+        
+        display: grid;
+        grid-template-columns: 20vw 30vw 20vw;
+        gap:5vw;
+        padding-top: 4vw;
+        padding-left:5vw;
+    
+    }
+    .project-div{
+        padding-top:15vw;
+    }
+    .project-button{
+        background-color:#FF6B00;
+        font-weight: 700;
+        font-size: 5vw;
+        width:100%;
+        border: none;
+        padding : 12px 12px
+    }
+    .About-container
+    {
+        background-color: #1C1A19;
+        padding-left: 6vw ;
+        width:100%;
+    }
+    .about-h1{
+       color: #FF6B00;
+       padding-top:20vw;
+       width: 96%;
+       font-size: 20vw;
+       font-weight: 400;
+       letter-spacing: 0.37px;
+    }
+    .about-p{
+        color: #FFFFFF;
+        font-size: 5vw ;
+        font-weight: 400;
+        font-family: 'Inter',Arial;
+        line-height:7vw;
+        width: 92%;
         
     }
-.ul{
-    display:flex;
-    justify-content: space-between;
-    background-color:#3C3A39;
-    padding:10px 20px;
-    width:100%;
-    height:70px;
-    top:44px;
-    color:#ffffff;
+    .grid-about{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width:100%;
+        padding-top:6vw;
+        }
+    .resume-button{
+        background-color: #FF6B00;
+        width: 50;
+        border: none;
+        padding:2vw 2vw;
+        font-family: 'Inter',Arial;
+        font-weight: 700;
+        font-size: 4vw;
+        letter-spacing: 3%;
+        text-align: center;
+        line-height: 7vw;
+        color: #FFFFFF;
+        width: 100%;
+      
+    }   
+    .button-A {
+        height: 10vh;
+    }
+    .image-A{
+        width:100%;
+    } 
+    .Frame{
+        width:100%;
+    } 
+    .Description{
+        width: 100%;
+       display:grid;
+       grid-template-columns: 0.7fr;
+       align-items: center;
+       justify-content: center;
+       padding-bottom: 10vw;
 
-}
-.body{
-    display:flex;
-    flex-direction:column;
-    background-color:#1C1A19;
-    justify-content: center;
-    align-items:center;
-    Top:92px;
-    padding:120px 24px 120px 24px;
-    gap:12px;
-    width:100%;
-    height:100vh;
-}
-.icon{
-    font-size:24px;
-    width:18px;
-    Height:12px;
-    Top:6px;
-    Left:3px;
-}
-.div1{
-    color:#FF6B00;
-    width: 100%;
-    height: 130px;
-    font-family:'Crete Round', serif;
-    font-size: 33px;
-    font-weight: 400;
-    line-height:60px;
-    letter-spacing: 0.35px;
-}
-.div2{
-    width: 100%;
-    height: 40px;
-    font-size:21px;
-    font-family: 'Roboto',sans-serif;
-    Top:-3480px;
-    Left: 12142px;
-    line-height:30.0px ;
-    color:#FFFFFF;
-}
-
-.dpic{
-width: 150px;
-height:350px;
-padding: 10px;
-position: absolute;
-right:5px;
-bottom: -35px;
-}
-.dicon{
-    width: 100%;
-    height: 100px;
+    }  
+   .lang-div{
     display: flex;
-    align-self: flex-start;
-    bottom:-50px;
-    margin-left:-10px;
+    align-items: center;
+    padding-top: 7vw;
+    padding-bottom: 3vw;
 
-}
-p{
-    width:100%;
-    height:120px;
-    line-height:30px;
-    font-size: 21px;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 24px;
-    font-family:'Poppins', sans-serif;
-    color:#ffffff;
-}
-}
-
-
+   } 
+   .shapes{
+    width:7vw;
+   }
+    .devider{
+        width: 100%;
+        padding-right:6vw;
+    }
+    ul{
+        text-decoration: none;
+        list-style-type: none;
+        padding-left: 10vw;
+    }
+    /* .h1-div{
+        padding-left: 5vw;
+    } */
+    .dec-h1{
+        padding-left: 3vw;
+        font-size:10vw;
+        color: #FFFFFF;
+        font-weight: 400;
+        
+    }
+    li{
+        font-size:5vw;
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 8vw;
+        padding-left:4vw;
+    }
+    .lastpage{
+        background-color: white;
+        padding-top: 8vh;
+        background-size: 100% 100% ;
+        font-family: 'Inter', sans-serif;
+    }
+    .VIp{
+        font-weight: 700;
+        font-size: 8.8vw;
+        line-height: 12.5vw;
+        color: rgba(23, 43, 77, 1);
+        text-align: center;
+        margin-bottom: 14vw;
+        width: 100%;
+    }
+    input{
+        display: block;
+        font-weight: 400;
+        font-size: 3.7vw;
+        line-height: 7vw;
+        color: rgba(151, 148, 147, 1);
+        border: none;
+        border-bottom: 1px solid gray;
+        margin:5vw 0;
+        width: 100%;
+        padding: 4vw;
+    }
+    textarea{
+        font-weight: 400;
+        font-size: 3.9vw;
+        line-height: 7vw;
+        font-style: italic;
+        color:rgba(60, 58, 57, 1);
+        background-color: rgba(251, 248, 247, 1);
+        width: 100%;
+        border: none;
+        padding: 3vw;
+    }
+    .VIbutton{
+        background:#FF6B00;
+        padding: 4vw;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 5.2vw;
+        line-height: 7.27vw;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3%;
+        text-align: center;
+        border: 1px solid #FF6B00;
+        width: 50%;
+        margin: 5vw 24vw 12vw 24vw;
+    }
+    .VIimages{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        border-top: 1px solid rgba(223, 225, 230, 1);
+        padding: 3vw 0;
+    }
+    .VIimg{
+        width: 10.7vw;
+        height: 10.7vw;
+        padding: 2.14vw;  
+    }
+    .lastshape{
+        width:40vw;
+        height: 1.5vw;
+        background-color: rgba(13, 21, 30, 1);
+        margin: 5vw 33vw 3vw 33vw;
+        border-radius: 3vw;
+    }
+    .VIcontainer{
+        padding-top: 5vw ;
+        padding-left: 6vw; 
+        padding-right: 4vw;
+    } 
+    .message{
+        position: relative;                  
+    }
+    .resizer{
+        position: absolute;
+        right: -2vw;
+        bottom: -1vw;
+        padding: 1.8vw;
+        width: 9%;
+    }   
+    
+    }
